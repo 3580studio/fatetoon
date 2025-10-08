@@ -1,4 +1,3 @@
-/* ===== FATETOON 기본 스타일 ===== */
 body {
   font-family: "Pretendard", sans-serif;
   background: #f5f3f0;
@@ -10,22 +9,7 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-
-header {
-  padding: 2rem 0 1rem;
-  text-align: center;
-}
-
-h1 {
-  font-size: 1.8rem;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.5rem;
-}
-
-small {
-  color: #777;
-}
-
+header { padding: 2rem 0 1rem; text-align: center; }
 form {
   background: white;
   padding: 1.5rem 2rem;
@@ -36,22 +20,12 @@ form {
   gap: 0.8rem;
   width: 320px;
 }
-
-label {
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-
-input,
-select,
-button {
+input, select, button {
   font-size: 1rem;
   padding: 0.5rem 0.7rem;
   border-radius: 0.5rem;
   border: 1px solid #ccc;
-  outline: none;
 }
-
 button {
   background: #222;
   color: #fff;
@@ -59,11 +33,7 @@ button {
   cursor: pointer;
   transition: 0.25s;
 }
-
-button:hover {
-  background: #444;
-}
-
+button:hover { background: #444; }
 #result {
   margin-top: 1.5rem;
   text-align: center;
